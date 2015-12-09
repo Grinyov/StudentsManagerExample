@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+        <!-- настройка диалекта -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <!-- настройка соединения-->
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/student</property>
+      <property name="connection.username">root</property>
+      <property name="connection.password">weber123</property>
+        <!-- настройка для отображения отладочной информации -->
+        <property name="hibernate.show_sql">true</property>
+        <!-- настройка сессии Hibernate в каком работает контексте, в нашем случае в потоке  -->
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="hbm2ddl.auto">update</property>
+        <property name="hibernate.connection.autocommit">false</property>
+      <mapping class="com.grinyov.app.entities.Student"/>
+      <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>
