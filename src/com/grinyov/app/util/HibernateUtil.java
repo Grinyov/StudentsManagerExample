@@ -6,7 +6,7 @@ import org.hibernate.cfg.Configuration;
 /**
  * Created by green on 09.12.2015.
  *
- * Класс отвечает за обработку данного hibernate.cfg.xml файла
+ * Классобработывет конфигурацию подключения данного приложения(hibernate.cfg.xml файла)
  * и установление соединения с нашей базой данных
  */
 public class HibernateUtil {
