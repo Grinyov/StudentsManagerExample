@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * Created by green on 09.12.2015.
  *
- * класс реализующий интерфейс для работы с таблицей student нашей бд
+ * Класс реализующий интерфейс для работы с таблицей student нашей БД
  *
  */
 public class StudentDAOImpl implements StudentDAO {
