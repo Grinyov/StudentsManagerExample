@@ -6,7 +6,7 @@ import javax.persistence.*;
 /**
  * Created by green on 09.12.2015.
  *
- * Класс-сущность
+ * Класс описывающий сущность Студент
  */
 @Entity
 @Table(name="student")
