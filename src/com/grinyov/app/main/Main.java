@@ -8,6 +8,8 @@ import java.util.List;
 
 /**
  * Created by green on 09.12.2015.
+ *
+ * Класс запуска приложения
  */
 public class Main {
     public static void main(String[] args) throws SQLException {
