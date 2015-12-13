@@ -43,6 +43,7 @@ public class QueryExamples {
          Expression.in — указывает диапазон значений конкретного поля
          Expression.disjunction, Expression.or — дизъюнкция (OR) — объединяет в себе несколько других выражений оператором ИЛИ.
          Expression.eq — определяет равенство поля какому-то значению
+         *
          */
 
         List studs = session.createCriteria(Student.class)
