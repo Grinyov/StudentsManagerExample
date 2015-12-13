@@ -24,7 +24,7 @@ import java.util.List;
 public class QueryExamples {
 
     public static void main(String[] args) {
-
+        //************************************************************************************************************
 
         // queries using Criteria
         //
